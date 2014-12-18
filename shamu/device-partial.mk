@@ -12,7 +12,7 @@ PRODUCT_PACKAGES += \
     CloudPrint2 \
     ConfigUpdater \
     Drive \
-    Enititlement \
+    Entitlement \
     FaceLock \
     FitnessPrebuilt \
     GenieWidget \
@@ -34,6 +34,7 @@ PRODUCT_PACKAGES += \
     PartnerBookmarksProvider \
     Phonesky \
     PlusOne \
+    PrebuiltBugle \
     PrebuiltGmsCore \
     SetupWizard \
     Street \
@@ -45,6 +46,7 @@ PRODUCT_PACKAGES += \
 # GLibs
 PRODUCT_COPY_FILES += \
     vendor/aosp-plus/shamu/proprietary/system/lib/libAppDataSearch.so:system/priv-app/PrebuiltGmsCore/lib/arm/libAppDataSearch.so:google \
+    vendor/aosp-plus/shamu/proprietary/system/lib/libbitmap_parcel.so:system/lib/libbitmap_parcel.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libchrome.2171.93.so:system/app/Chrome/lib/arm/libchrome.2171.93.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libchromeview.so:system/app/Chrome/lib/arm/libchromeview.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libchromium_android_linker.so:system/app/Chrome/lib/arm/libchromium_android_linker.so:google \
@@ -74,14 +76,14 @@ PRODUCT_COPY_FILES += \
     vendor/aosp-plus/shamu/proprietary/system/lib/libm2ts_player.so:system/app/YouTube/lib/arm/libm2ts_player.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libnativehelper_compat_libc++.so:system/lib/libnativehelper_compat_libc++.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libparcel_utils.so:system/app/CloudPrint2/lib/arm/libparcel_utils.so:google \
-    vendor/aosp-plus/shamu/proprietary/system/lib/libpatts_engine_jni_api_ub.210303120.so:system/lib/libpatts_engine_jni_api_ub,210303120.so:google \
+    vendor/aosp-plus/shamu/proprietary/system/lib/libpatts_engine_jni_api_ub.210303130.so:system/lib/libpatts_engine_jni_api_ub,210303130.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/librectifier.so:system/app/CloudPrint2/lib/arm/librectifier.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/librefocus.so:system/lib/librefocus.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/librs.layered_filter_f32.so:system/lib/librs.layered_filter_f32.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/librs.layered_filter_fast_f32.so:system/lib/librs.layered_filter_fast_f32.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/librsjni.so:system/lib/librsjni.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libRSSupport.so:system/lib/libRSSupport.so:google \
-    vendor/aosp-plus/shamu/proprietary/system/lib/libspeexwrapper_ub.210303120.so:system/lib/libspeexwrapper_ub.210303120.so:google \
+    vendor/aosp-plus/shamu/proprietary/system/lib/libspeexwrapper_ub.210303130.so:system/lib/libspeexwrapper_ub.210303130.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libsslwrapper_jni.so:system/lib/libsslwrapper_jni.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libvcdecoder_jni.so:system/lib/libvcdecoder_jni.so:google \
     vendor/aosp-plus/shamu/proprietary/system/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so:google \
